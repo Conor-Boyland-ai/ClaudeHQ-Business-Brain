@@ -1,0 +1,13 @@
+{
+  "name": "rampant-growth",
+  "owner": {
+    "name": "Conor Boyland"
+  },
+  "plugins": [
+    {
+      "name": "business-brain",
+      "source": "./",
+      "description": "Installs your AI business brain: a Claude HQ folder on your computer and a matching Notion workspace, with a Cofounder agent that sets it all up and briefs you every morning."
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "name": "business-brain",
+  "version": "1.0.0",
+  "description": "Installs your AI business brain: a Claude HQ folder on your computer and a matching Notion workspace, with a Cofounder agent that sets the whole thing up for you and briefs you every morning. Run the kickoff prompt and watch it build itself.",
+  "author": {
+    "name": "Conor Boyland"
+  }
+}
