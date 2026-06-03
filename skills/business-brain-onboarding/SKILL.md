@@ -63,25 +63,122 @@ it."
 
 ## Step 2 — Fill the local files by interview
 
-Work through the template files in `context/` and `CLAUDE.md`. For each bracket,
-ask one easy question with an example, take their answer, and write it in with
-the Edit tool. Never show them brackets. Cover, in this order:
+### Scope of this step (read carefully — do not go out of bounds)
 
-1. **Identity** — name, what they do, the one-line version. (about-me.md,
-   CLAUDE.md identity)
-2. **Mission** — the change they want to create, in one line.
-3. **Audience** — who they serve, by desire and struggle more than demographics.
-4. **Working style** — how direct they want you, what drains their energy, what
-   they never want to do themselves again. (working-style.md)
-5. **Voice** — a few words for how they sound, plus ask for one real sample of
-   their writing to learn from. (voice-rules.md)
-6. **Company basics** — main channel, how money comes in, pricing floors if they
-   have them. (my-company.md)
-7. **North Star** — the one or two things that matter most right now.
-   (CLAUDE.md, and this goes into Notion in Step 3)
+This step gathers FOUNDATIONAL BUSINESS INFORMATION only. You are filling in
+exactly these files: `context/about-me.md`, `context/my-company.md`,
+`context/working-style.md`, and the identity + North Star sections of
+`CLAUDE.md`.
 
-Keep answers short. If they don't know something yet, write "[to be defined]"
-and move on. Never block on a hard question.
+Do NOT do any of the following here. They are separate later steps in the
+program and touching them now is out of bounds:
+- Do NOT train, define, or ask about their writing voice. Leave
+  `context/voice-rules.md` exactly as the untouched template. Voice is its own
+  dedicated step later.
+- Do NOT build out offers. Leave `context/offers/` as the placeholder. Only note
+  an offer if they volunteer one unprompted, and even then keep it to a single
+  line in the offer index.
+- Do NOT set up connectors, skills, or other agents. Not part of this step.
+
+### First: use what they already have (do this before asking anything)
+
+Many people already have this information written somewhere. Before interviewing,
+ask once:
+
+"Before I ask you anything — do you already have something that describes your
+business? A brand doc, an About page, your website copy, a sales page, a bio,
+anything like that? If so, paste it here or point me to the file, and I'll pull
+what I can from it so you don't have to repeat yourself."
+
+If they share material, read it and fill in every field below that it covers.
+Then only ask questions for the fields that are still empty or too thin. If they
+have nothing, run the full interview below.
+
+### The fields to gather, mapped to each file
+
+Ask one question at a time, always with a concrete example so they never face a
+blank. Write each answer into the file shown, using the Edit tool. Never show
+them the brackets. Reflect each answer back in one line before moving on.
+
+**Into `context/about-me.md` (Who I am section):**
+
+1. **Identity.** "In a sentence or two, who are you and what do you do?"
+   Example: "I'm Sarah, I help burned-out nurses start health coaching
+   businesses." Also write the name and one-liner into the Identity section of
+   `CLAUDE.md`.
+
+**Into `context/about-me.md` (Mission section):**
+
+2. **Mission.** "What's the change you're trying to create, beyond making money?
+   The deeper reason this business exists." Example: "I want every nurse who
+   feels trapped in a hospital to know they can build something of their own."
+   This should be more than a slogan. If their first answer is thin or generic,
+   ask ONE follow-up to get to the real why, then move on.
+
+**Into `context/about-me.md` (My audience section) — go deepest here:**
+
+3. **Audience.** Gather two specific things: their audience's biggest STRUGGLE
+   and their biggest DESIRE, in plain language, not demographics.
+   - "Who do you serve, and what's the biggest thing they're struggling with
+     right now?" Example: "New coaches who are invisible online and have no idea
+     how to get their first client."
+   - Then: "And what do they want most?" Example: "Consistent clients without
+     feeling salesy or chained to social media."
+   This is the most important answer in the interview. If either the struggle or
+   the desire comes back vague ("they want to grow"), ask ONE follow-up to make
+   it specific, then move on.
+
+**Into `context/my-company.md`:**
+
+4. **Main channel.** "Where do you mainly publish or plan to? For example
+   Instagram, LinkedIn, a newsletter, YouTube." → Channels section.
+5. **How money comes in.** "How does the business make money right now, or how
+   will it? For example coaching, a course, done-for-you services." → Where money
+   comes from section.
+6. **Pricing floors.** "Do you have a minimum price you won't go below for your
+   main offer? If you're not sure yet, that's fine." → Pricing floors section.
+   If unsure, write "[to be defined]".
+7. **What you say no to.** "Is there any kind of work or client you already know
+   you don't want? For example one-off cheap projects, or anything that doesn't
+   build your brand." → Saying no to section. Optional; skip if nothing comes.
+
+**Into `context/working-style.md`:**
+
+8. **Pace and energy.** "How do you like to work? Fast and decisive, or slow and
+   considered? When are you sharpest?" → Energy and pace section.
+9. **Friction triggers.** "What frustrates you when working with people or tools?
+   For example walls of text, too many options, things taking too long." →
+   Friction triggers section.
+10. **Role split.** "What's the work only YOU should be doing, versus the stuff
+    you'd happily hand off forever? For example: you keep the ideas and creative
+    calls, you hand off formatting, research, and admin." → Role split section.
+11. **Decision priorities.** "Right now, what matters most to your business? For
+    example growth first, then sales." → Decision rules section.
+
+**Into `CLAUDE.md` (North Star section) and later into Notion (Step 3):**
+
+12. **North Star.** "If you had to name the one or two things that matter most to
+    your business right now, what are they? For example: cash flow and growth."
+    Write this into the North Star section of `CLAUDE.md`. You will also write it
+    to the Notion Current State page in Step 3.
+
+**The constraint (capture, store in Notion in Step 3):**
+
+13. **Biggest constraint.** "Last one for now: what's the single biggest thing
+    slowing your growth right now? The one bottleneck that, if it were gone,
+    would change everything." Example: "I have no consistent way to get in front
+    of new people." Keep this answer to a sentence or two. You'll store it on the
+    Current State page in Step 3 under a Current Constraint note. This helps you
+    keep them focused on what actually matters.
+
+### Depth and pace rules
+
+- One question at a time. Always include an example.
+- Push for depth only on Mission and Audience, and only with ONE follow-up if the
+  answer is vague. Never interrogate.
+- If they don't know an answer yet, write "[to be defined]" in the file and move
+  on. Never block onboarding on a hard question.
+- Keep the whole interview moving. Foundational info now, not perfection.
 
 ## Step 3 — Build the Notion workspace
 
@@ -95,7 +192,8 @@ structure). Keep it simple and neutral. Do not invent extra databases.
   added later as they grow.
 - **Offers** — what they sell. Sections: Active, In Development, Legacy.
 - **Operations** — the working state. Create a **Current State** page here with:
-  their North Star, a Current Focus section, a simple KPIs area, and a Recent
+  their North Star, a Current Constraint note (the biggest bottleneck from
+  question 13), a Current Focus section, a simple KPIs area, and a Recent
   Activity log. This is the page you read and write every session.
 - **Library** — reference material that grows over time (swipe files, research,
   past content).
